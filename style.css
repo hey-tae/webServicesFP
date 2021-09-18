@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.navigation{
+    background: rgb(253, 237, 226);
+    height:10vh;
+    
+}
+
+nav li{
+    float: left;
+    margin-left: 12%;
+    list-style: none;
+}
+
+#logo{
+    margin: 1%;
+    font-size: 24px;
+    margin-right: 30%;
+}
+
+.navMiddle{
+    margin: 1%;
+    font-size: 24px;
+}
+
+.navRight{
+    margin: 1%;
+    margin-left: 28%;
+    font-size: 18px;
+    color: white;
+}
+
+.navRight button{
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+
+button{
+    background: rgb(238, 132, 119);
+}
+.topSection{
+    background: rgb(253, 237, 226);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(244, 181, 169);
+
+}
+
+h1{
+    margin-bottom: 5%;
+    font-size: 4rem;
+    width: 55%;
+    text-align: center;
+    
+}
+
+.topSection a{
+    font-style: italic;
+    color: rgb(244, 181, 169);
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.secondSection{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 30%;
+    
+}
+
+.secondSection p{
+    text-align: center;
+}
+.photo{
+    width: 100%;
+    background-image: url(/crp[[ed.png);
+    background-size: 100%;
+    height: 70vh;
+}
+
+.photo img{
+    width: 100%;
+    height: 30vh;
+    
+}
+
+
+.servicesSection{
+    background: rgb(253, 237, 226);
+    height: 100vh;
+    padding: 75px;
+    color: rgb(244, 181, 169);
+    width: 100%;
+    margin:0;
+}
+
+.servicesSection h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.servicesLists{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.servicesLists h4, .servicesLists p{
+    text-align: center;
+    margin-bottom: 3%
+}
+
+.servicesLists h4{
+    font-size: 1.5rem;
+
+}
+
+.servicesLists p{
+    color: black;
+    padding: 25px;
+}
+
+.buttonLearn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.learnMore{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 35px;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.review{
+    width: 100%;
+    position: relative;
+    padding: 5%;
+    
+}
+
+.textBox{
+    background: rgb(238, 132, 119);
+    width: 28%;
+    height: 55vh;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+
+}
+
+.textBox p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    padding: 35px;
+    font-size: 2rem;
+}
+
+.textBox span{
+    margin-left: 70%;
+    font-size: 1.5rem;
+}
+.reviewPhoto img{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.contactSection{
+    background: rgb(253, 237, 226);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    
+}
+
+
+.contactSection h4, .contactSection p{
+    margin-bottom: 3%;
+}
+.contactSection h4{
+    font-size: 2.5rem;
+}
+
+.contactSection p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.contactSection button{
+    padding: 20px 35px;
+    font-size: 16px;
+    color: white;
+}
+
+footer{
+    height: 60vh;
+}
+
+
+.footerSection{
+    background: white;
+    height: 70vh;
+    padding: 75px;
+    color: black;
+    width: 100%;
+    margin:0;
+}
+
+.footerSection h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.footerLists{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerLists h4, .footerLists p{
+    text-align: center;
+    
+}
+
+.footerLists h4{
+    font-size: 1.5rem;
+
+}
+
+.footerLists p{
+    color: black;
+    padding: 25px 0 0 0;
+    font-size: 20px;
+}
+
+.footerLists a{
+    text-decoration: none;
+    color: rgb(244, 181, 169);
+}
